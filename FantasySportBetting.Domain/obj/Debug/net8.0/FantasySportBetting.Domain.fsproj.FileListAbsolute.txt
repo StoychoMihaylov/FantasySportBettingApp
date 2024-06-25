@@ -6,6 +6,7 @@ C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\ob
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.AssemblyInfoInputs.cache
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.AssemblyInfo.fs
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.fsproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.dll
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\refint\FantasySportBetting.Domain.dll
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Domain\obj\Debug\net8.0\FantasySportBetting.Domain.xml

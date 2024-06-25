@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A60EBFF-F9D6-4379-AC16-D0D706236504}|docker-compose.dcproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6A60EBFF-F9D6-4379-AC16-D0D706236504}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.web\\controllers\\matchcontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|solutionrelative:fantasysportbetting.web\\controllers\\matchcontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-25T12:23:38.631Z",
+              "Title": "MatchController.fs",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\MatchController.fs",
+              "RelativeDocumentMoniker": "FantasySportBetting.Web\\Controllers\\MatchController.fs",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\MatchController.fs",
+              "RelativeToolTip": "FantasySportBetting.Web\\Controllers\\MatchController.fs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-25T22:06:59.629Z",
               "EditorCaption": ""
             }
           ]

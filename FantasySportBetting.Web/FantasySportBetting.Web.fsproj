@@ -8,25 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Controllers\FSharpInitialController.fs" />
-    <Compile Include="Program.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="Dockerfile" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Ply" Version="0.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FantasySportBetting.Application\FantasySportBetting.Application.fsproj" />
     <ProjectReference Include="..\FantasySportBetting.Domain\FantasySportBetting.Domain.fsproj" />
     <ProjectReference Include="..\FantasySportBetting.Infrastructure\FantasySportBetting.Infrastructure.fsproj" />
+    <ProjectReference Include="..\FantasySportBetting.Application\FantasySportBetting.Application.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Controllers\MatchController.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
 
 </Project>

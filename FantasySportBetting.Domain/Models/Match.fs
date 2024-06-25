@@ -3,9 +3,8 @@
 open System
 
 type Match = {
-    Id: Guid
-    HomeTeam: Team
-    AwayTeam: Team
+    HomeTeam: string
+    GuestTeam: string
     StartTime: DateTime
-    Result: Option<string>
+    Winner: string
 }

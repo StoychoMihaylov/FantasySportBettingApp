@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("FantasySportBetting.Domain")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc1d8fbd8910485b969c1edfae060b561588dae5")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddc15a3c41f4ae03aae137b402aa7b07b1539ff7")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FantasySportBetting.Domain")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FantasySportBetting.Domain")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

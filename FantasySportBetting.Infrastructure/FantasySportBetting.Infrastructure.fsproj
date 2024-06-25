@@ -6,13 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="MongoService\Context\MongoDbContext.fs" />
+    <Compile Include="MongoService\Documents\MatchDocument.fs" />
+    <Compile Include="MongoService\Repositories\MatchRepository.fs" />
     <Compile Include="BackgroundService\MatchResultSetterService.fs" />
-    <Compile Include="MongoService\Context\MongoService.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MongoService\Documents\" />
-    <Folder Include="MongoService\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
