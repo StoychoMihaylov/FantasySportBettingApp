@@ -69,3 +69,4 @@ C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\D
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.pdb
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.genruntimeconfig.cache
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\ref\FantasySportBetting.Web.dll
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.sourcelink.json

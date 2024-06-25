@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+
+#SERVER BACK-END:
+
+  fantasysportbettingapp-server:
+    image: ${DOCKER_REGISTRY-}fantasysportbettingapp
+    build:
+      context: .
+      dockerfile: FantasySportBetting.Web/Dockerfile
