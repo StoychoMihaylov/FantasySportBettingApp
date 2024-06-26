@@ -5,11 +5,13 @@ namespace FantasySportBetting.Web
 open Microsoft.AspNetCore.Builder
 open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
-open FantasySportBetting.Domain.Settings
-open FantasySportBetting.Infrastructure.BackgroundService
 open MediatR
 open System.Reflection
 open Microsoft.OpenApi.Models
+
+open FantasySportBetting.Domain.Settings
+open FantasySportBetting.Infrastructure.BackgroundService
+open FantasySportBetting.Infrastructure.MongoService.Context
 
 module Program =
     let exitCode = 0
@@ -24,6 +26,7 @@ module Program =
         
         // Register services
         builder.Services.AddControllers()
+        builder.Services.AddSingleton<MongoDbContext>()
         builder.Services.AddHostedService<MatchResultBackgroundService>()
         builder.Services.AddMediatR(Assembly.GetExecutingAssembly()) |> ignore
         builder.Services.AddSwaggerGen(fun c ->
@@ -44,7 +47,6 @@ module Program =
         app.UseHttpsRedirection()
         app.UseAuthorization()
         app.MapControllers()
-
         app.Run()
 
         exitCode

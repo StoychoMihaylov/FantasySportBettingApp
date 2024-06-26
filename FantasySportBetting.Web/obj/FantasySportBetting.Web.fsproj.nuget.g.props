@@ -26,6 +26,7 @@
     <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\stmih\.nuget\packages\awssdk.core\3.7.100.14</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\stmih\.nuget\packages\awssdk.securitytoken\3.7.100.14</PkgAWSSDK_SecurityToken>
     <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Users\stmih\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.20.1</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson Condition=" '$(PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson)' == '' ">C:\Users\stmih\.nuget\packages\microsoft.aspnetcore.mvc.newtonsoftjson\5.0.0</PkgMicrosoft_AspNetCore_Mvc_NewtonsoftJson>
     <PkgMediatR_Extensions_Microsoft_DependencyInjection Condition=" '$(PkgMediatR_Extensions_Microsoft_DependencyInjection)' == '' ">C:\Users\stmih\.nuget\packages\mediatr.extensions.microsoft.dependencyinjection\9.0.0</PkgMediatR_Extensions_Microsoft_DependencyInjection>
   </PropertyGroup>
 </Project>

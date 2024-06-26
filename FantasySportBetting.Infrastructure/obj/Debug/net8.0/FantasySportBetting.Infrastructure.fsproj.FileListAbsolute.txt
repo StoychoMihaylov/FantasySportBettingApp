@@ -12,6 +12,7 @@ C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastru
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasySportBetting.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasySportBetting.Infrastructure.AssemblyInfo.fs
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasySportBetting.Infrastructure.fsproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasySportBetting.Infrastructure.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasyS.D03472B0.Up2Date
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\FantasySportBetting.Infrastructure.dll
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Infrastructure\obj\Debug\net8.0\refint\FantasySportBetting.Infrastructure.dll

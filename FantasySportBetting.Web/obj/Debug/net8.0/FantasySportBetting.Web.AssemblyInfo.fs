@@ -11,7 +11,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("FantasySportBetting.Web")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b52ac77bf6d19b7d35976bd2b3485d58539898d")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FantasySportBetting.Web")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FantasySportBetting.Web")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
