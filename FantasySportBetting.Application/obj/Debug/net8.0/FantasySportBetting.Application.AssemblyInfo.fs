@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("FantasySportBetting.Application")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0517a90d58298229a4876ea455d78c81a02fbc26")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b52ac77bf6d19b7d35976bd2b3485d58539898d")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("FantasySportBetting.Application")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("FantasySportBetting.Application")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
