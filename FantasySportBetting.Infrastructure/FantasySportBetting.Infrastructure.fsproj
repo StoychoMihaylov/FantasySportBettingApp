@@ -9,7 +9,6 @@
     <Compile Include="MongoService\Context\MongoDbContext.fs" />
     <Compile Include="MongoService\Documents\MatchDocument.fs" />
     <Compile Include="MongoService\Repositories\MatchRepository.fs" />
-    <Compile Include="BackgroundService\MatchResultSetterService.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +19,6 @@
   <ItemGroup>
     <PackageReference Include="Ply" Version="0.3.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
-    <ProjectReference Include="..\FantasySportBetting.Application\FantasySportBetting.Application.fsproj" />
     <ProjectReference Include="..\FantasySportBetting.Domain\FantasySportBetting.Domain.fsproj" />
   </ItemGroup>
 

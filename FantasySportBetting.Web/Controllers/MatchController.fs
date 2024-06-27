@@ -5,14 +5,14 @@ open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Logging
 open MongoDB.Bson
 open System.Threading.Tasks
+open MediatR
 
-open FantasySportBetting.Infrastructure.MongoService.Context
-open FantasySportBetting.Infrastructure.MongoService.Repositories
 open FantasySportBetting.Infrastructure.MongoService.Documents
+open FantasySportBetting.Application.Commands
 
 [<ApiController>]
 [<Route("[controller]")>]
-type MatchController (logger: ILogger<MatchController>, context: MongoDbContext) =
+type MatchController (logger: ILogger<MatchController>, mediator: IMediator) =
     inherit ControllerBase()
 
     [<HttpGet>]
@@ -31,8 +31,10 @@ type MatchController (logger: ILogger<MatchController>, context: MongoDbContext)
                     StartTime = DateTime.Now
                     Winner = ""
                 }
-                let! matchId = MatchRepository.addMatch context matchDocument |> Async.AwaitTask
-                logger.LogInformation("New match added with Id: {matchId}", matchId)
+
+                let command = AddNewMatchCommand(homeTeam, guestTeam)
+                let! matchId = mediator.Send(command) |> Async.AwaitTask
+
                 return this.StatusCode(200, matchId) :> IActionResult
             with
             | ex ->

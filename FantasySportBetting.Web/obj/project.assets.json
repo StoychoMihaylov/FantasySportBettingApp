@@ -1225,7 +1225,9 @@
         "dependencies": {
           "FSharp.Core": "8.0.300",
           "FantasySportBetting.Domain": "1.0.0",
+          "FantasySportBetting.Infrastructure": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
+          "Microsoft.Extensions.Hosting": "8.0.0",
           "Ply": "0.3.1"
         },
         "compile": {
@@ -1253,7 +1255,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FSharp.Core": "8.0.300",
-          "FantasySportBetting.Application": "1.0.0",
           "FantasySportBetting.Domain": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.Extensions.Hosting": "8.0.0",

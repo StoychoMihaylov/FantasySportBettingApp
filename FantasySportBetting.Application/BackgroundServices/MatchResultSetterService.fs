@@ -1,4 +1,4 @@
-﻿namespace FantasySportBetting.Infrastructure.BackgroundService
+﻿namespace FantasySportBetting.Application.BackgroundServices
 
 open System
 open System.Threading
@@ -6,6 +6,7 @@ open System.Threading.Tasks
 open Microsoft.Extensions.Hosting
 open MediatR
 open FSharp.Control.Tasks
+
 open FantasySportBetting.Application.Commands
 
 type MatchResultBackgroundService(mediator: IMediator) =

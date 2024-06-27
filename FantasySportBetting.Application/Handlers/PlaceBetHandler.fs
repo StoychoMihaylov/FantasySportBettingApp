@@ -1,11 +1,12 @@
 ﻿namespace FantasySportBetting.Application.Handlers
 
 open System
-open FantasySportBetting.Domain.Models
-open FantasySportBetting.Application.Commands
 open MediatR
 open System.Threading
 open System.Threading.Tasks
+
+open FantasySportBetting.Domain.Models
+open FantasySportBetting.Application.Commands
 
 type PlaceBetHandler() =
     interface IRequestHandler<PlaceBetCommand, Bet> with

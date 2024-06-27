@@ -1,8 +1,9 @@
 ﻿namespace FantasySportBetting.Application.Commands
 
 open System
-open FantasySportBetting.Domain.Models
 open MediatR
+
+open FantasySportBetting.Domain.Models
 
 type PlaceBetCommand(userId: Guid, matchId: Guid, amount: decimal) =
     interface IRequest<Bet>
