@@ -32,6 +32,9 @@
             "projectReferences": {
               "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Domain\\FantasySportBetting.Domain.fsproj": {
                 "projectPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Domain\\FantasySportBetting.Domain.fsproj"
+              },
+              "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Infrastructure\\FantasySportBetting.Infrastructure.fsproj": {
+                "projectPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Infrastructure\\FantasySportBetting.Infrastructure.fsproj"
               }
             }
           }
@@ -55,6 +58,11 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )",
               "generatePathProperty": true
             },
             "Ply": {
@@ -174,9 +182,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\FantasySportBetting.Application.fsproj": {
-                "projectPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\FantasySportBetting.Application.fsproj"
-              },
               "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Domain\\FantasySportBetting.Domain.fsproj": {
                 "projectPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Domain\\FantasySportBetting.Domain.fsproj"
               }

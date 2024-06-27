@@ -10,8 +10,10 @@ open System.Reflection
 open Microsoft.OpenApi.Models
 
 open FantasySportBetting.Domain.Settings
-open FantasySportBetting.Infrastructure.BackgroundService
+open FantasySportBetting.Application.BackgroundServices
 open FantasySportBetting.Infrastructure.MongoService.Context
+open FantasySportBetting.Application.Commands
+open FantasySportBetting.Application.Handlers
 
 module Program =
     let exitCode = 0
@@ -28,10 +30,14 @@ module Program =
         builder.Services.AddControllers()
         builder.Services.AddSingleton<MongoDbContext>()
         builder.Services.AddHostedService<MatchResultBackgroundService>()
-        builder.Services.AddMediatR(Assembly.GetExecutingAssembly()) |> ignore
+        
         builder.Services.AddSwaggerGen(fun c ->
             c.SwaggerDoc("v1", OpenApiInfo(Title = "FantasySportBetting API", Version = "v1"))
         ) |> ignore
+
+        // MediatR
+        builder.Services.AddMediatR(Assembly.GetExecutingAssembly()) |> ignore
+        builder.Services.AddScoped<IRequestHandler<AddNewMatchCommand, string>, AddNewMatchHandler>()
 
         let app = builder.Build()
 

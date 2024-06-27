@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\FantasySportBetting.Web.props" />
-</Project>

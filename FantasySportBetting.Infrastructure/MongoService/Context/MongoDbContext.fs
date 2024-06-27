@@ -2,6 +2,7 @@
 
 open MongoDB.Driver
 open Microsoft.Extensions.Options
+
 open FantasySportBetting.Domain.Settings
 
 type MongoDbContext(options: IOptions<MongoDbOptions>) =

@@ -1,10 +1,11 @@
 ﻿namespace FantasySportBetting.Application.Handlers
 
-open FantasySportBetting.Application.Commands
 open MediatR
 open System.Threading
 
-type SetMatchResultHandlerTwo() =
+open FantasySportBetting.Application.Commands
+
+type SetMatchResultHandler() =
     interface IRequestHandler<SetMatchResultCommand, unit> with
         member _.Handle(command: SetMatchResultCommand, cancellationToken: CancellationToken) =
             async {

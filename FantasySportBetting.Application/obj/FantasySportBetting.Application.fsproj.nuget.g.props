@@ -12,9 +12,15 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\stmih\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\stmih\.nuget\packages\fsharp.core\8.0.300</PkgFSharp_Core>
     <PkgPly Condition=" '$(PkgPly)' == '' ">C:\Users\stmih\.nuget\packages\ply\0.3.1</PkgPly>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\stmih\.nuget\packages\awssdk.core\3.7.100.14</PkgAWSSDK_Core>
+    <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\stmih\.nuget\packages\awssdk.securitytoken\3.7.100.14</PkgAWSSDK_SecurityToken>
+    <PkgMicrosoft_Extensions_Hosting Condition=" '$(PkgMicrosoft_Extensions_Hosting)' == '' ">C:\Users\stmih\.nuget\packages\microsoft.extensions.hosting\8.0.0</PkgMicrosoft_Extensions_Hosting>
     <PkgMediatR_Extensions_Microsoft_DependencyInjection Condition=" '$(PkgMediatR_Extensions_Microsoft_DependencyInjection)' == '' ">C:\Users\stmih\.nuget\packages\mediatr.extensions.microsoft.dependencyinjection\9.0.0</PkgMediatR_Extensions_Microsoft_DependencyInjection>
   </PropertyGroup>
 </Project>
