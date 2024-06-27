@@ -4,6 +4,7 @@ open System
 open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Logging
 open MongoDB.Bson
+open System.Threading.Tasks
 
 open FantasySportBetting.Infrastructure.MongoService.Context
 open FantasySportBetting.Infrastructure.MongoService.Repositories
@@ -17,19 +18,25 @@ type MatchController (logger: ILogger<MatchController>, context: MongoDbContext)
     [<HttpGet>]
     member this.Get(id: string) =
         let values = [|"Hello"; "World"; "First F#/ASP.NET Core web API!"|]
-        ActionResult<string[]>(values)
+        this.StatusCode(200, values)
 
     [<HttpPost>]
-    member this.Post(homeTeam: string, guestTeam: string) = 
+    member this.Post(homeTeam: string, guestTeam: string) : Task<IActionResult> = 
         async {    
-            let matchDocument: MatchDocument = {
-                Id = BsonObjectId(ObjectId.GenerateNewId())
-                HomeTeam = homeTeam
-                GuestTeam = guestTeam
-                StartTime = DateTime.Now
-                Winner = ""
-            }
-            let newMatch = MatchRepository.addMatch context matchDocument |> Async.AwaitTask
-            return ActionResult<Async<MatchDocument>>(newMatch)
-        }
+            try
+                let matchDocument: MatchDocument = {
+                    Id = BsonObjectId(ObjectId.GenerateNewId())
+                    HomeTeam = homeTeam
+                    GuestTeam = guestTeam
+                    StartTime = DateTime.Now
+                    Winner = ""
+                }
+                let! matchId = MatchRepository.addMatch context matchDocument |> Async.AwaitTask
+                logger.LogInformation("New match added with Id: {matchId}", matchId)
+                return this.StatusCode(200, matchId) :> IActionResult
+            with
+            | ex ->
+                logger.LogError(ex, "Error adding match")
+                return this.StatusCode(500, "Internal server error.") :> IActionResult
+        } |> Async.StartAsTask
             
