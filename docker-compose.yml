@@ -1,10 +1,22 @@
-version: '3.4'
+version: '3.7'
 
 services:
+
+#CLIENT FRONT-END:
+
+  fantasy-sport-betting-client-app:
+    container_name: FANTASYSPORTBETTINGAPP_CLIENT
+    image: ${DOCKER_REGISTRY-}fantasysportbettingclientapp
+    build:
+      context: ./fantasy-sport-betting-client-app
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"
 
 #SERVER BACK-END:
 
   fantasysportbettingapp-server:
+    container_name: FANTASYSPORTBETTINGAPP_SERVER
     image: ${DOCKER_REGISTRY-}fantasysportbettingapp
     build:
       context: .
