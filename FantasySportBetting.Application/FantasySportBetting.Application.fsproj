@@ -6,9 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Commands\GetMatchCommand.fs" />
     <Compile Include="Commands\AddNewMatchCommand.fs" />
     <Compile Include="Commands\SetMatchResultCommand.fs" />
     <Compile Include="Commands\PlaceBetCommand.fs" />
+    <Compile Include="Handlers\GetMatchHandler.fs" />
     <Compile Include="Handlers\AddNewMatchHandler.fs" />
     <Compile Include="Handlers\SetMatchResultHandler.fs" />
     <Compile Include="Handlers\PlaceBetHandler.fs" />

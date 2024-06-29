@@ -1,10 +1,16 @@
-version: '3.4'
+version: '3.7'
 
 services:
 
 #CLIENT FRONT-END
 
-#TO DO: Build Angular app
+  fantasy-sport-betting-client-app:
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./fantasy-sport-betting-client-app:/app:ro
+    ports:
+      - "4200:80"
 
 #SERVER BACK-END:
 

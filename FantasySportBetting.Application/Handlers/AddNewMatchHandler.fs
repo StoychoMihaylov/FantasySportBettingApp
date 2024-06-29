@@ -23,7 +23,6 @@ type AddNewMatchHandler(logger: ILogger<AddNewMatchHandler>, context: MongoDbCon
                     Winner = ""
                 }
 
-
                 let! matchId = MatchRepository.addMatch context matchDocument |> Async.AwaitTask
                 logger.LogInformation("New match added with Id: {matchId}", matchId)
                 return matchId.ToString()
