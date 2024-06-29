@@ -14,6 +14,7 @@ open FantasySportBetting.Application.BackgroundServices
 open FantasySportBetting.Infrastructure.MongoService.Context
 open FantasySportBetting.Application.Commands
 open FantasySportBetting.Application.Handlers
+open FantasySportBetting.Domain.Models
 
 module Program =
     let exitCode = 0
@@ -38,6 +39,7 @@ module Program =
         // MediatR
         builder.Services.AddMediatR(Assembly.GetExecutingAssembly()) |> ignore
         builder.Services.AddScoped<IRequestHandler<AddNewMatchCommand, string>, AddNewMatchHandler>()
+        builder.Services.AddScoped<IRequestHandler<GetMatchCommand, Match option>, GetMatchHandler>()
 
         let app = builder.Build()
 
