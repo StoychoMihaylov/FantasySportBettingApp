@@ -7,5 +7,6 @@ type Match = {
     HomeTeam: string
     GuestTeam: string
     StartTime: DateTime
+    WinCoefficient: decimal
     Winner: string
 }

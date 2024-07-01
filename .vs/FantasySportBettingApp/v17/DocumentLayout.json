@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.web\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|solutionrelative:fantasysportbetting.web\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.web\\controllers\\matchcontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|solutionrelative:fantasysportbetting.web\\controllers\\matchcontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6A6D0D-1352-4437-9BB2-E6F7E0D02FEA}|FantasySportBetting.Application\\FantasySportBetting.Application.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.application\\handlers\\addnewmatchhandler.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{AB6A6D0D-1352-4437-9BB2-E6F7E0D02FEA}|FantasySportBetting.Application\\FantasySportBetting.Application.fsproj|solutionrelative:fantasysportbetting.application\\handlers\\addnewmatchhandler.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6A6D0D-1352-4437-9BB2-E6F7E0D02FEA}|FantasySportBetting.Application\\FantasySportBetting.Application.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.application\\handlers\\getmatchhandler.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{AB6A6D0D-1352-4437-9BB2-E6F7E0D02FEA}|FantasySportBetting.Application\\FantasySportBetting.Application.fsproj|solutionrelative:fantasysportbetting.application\\handlers\\getmatchhandler.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D4AC46D-FB70-490F-86BB-93A9DA537A32}|FantasySportBetting.Infrastructure\\FantasySportBetting.Infrastructure.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.infrastructure\\mongoservice\\repositories\\matchrepository.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{5D4AC46D-FB70-490F-86BB-93A9DA537A32}|FantasySportBetting.Infrastructure\\FantasySportBetting.Infrastructure.fsproj|solutionrelative:fantasysportbetting.infrastructure\\mongoservice\\repositories\\matchrepository.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+      "AbsoluteMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|c:\\users\\stmih\\source\\repos\\fantasysportbettingapp\\fantasysportbetting.web\\controllers\\usercontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{54BD1228-1510-4EFF-AE4D-1CA261308AEF}|FantasySportBetting.Web\\FantasySportBetting.Web.fsproj|solutionrelative:fantasysportbetting.web\\controllers\\usercontroller.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.fs",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Program.fs",
-              "RelativeDocumentMoniker": "FantasySportBetting.Web\\Program.fs",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Program.fs",
-              "RelativeToolTip": "FantasySportBetting.Web\\Program.fs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Title": "UserController.fs",
+              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\UserController.fs",
+              "RelativeDocumentMoniker": "FantasySportBetting.Web\\Controllers\\UserController.fs",
+              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\UserController.fs",
+              "RelativeToolTip": "FantasySportBetting.Web\\Controllers\\UserController.fs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T23:59:33.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MatchRepository.fs",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Infrastructure\\MongoService\\Repositories\\MatchRepository.fs",
-              "RelativeDocumentMoniker": "FantasySportBetting.Infrastructure\\MongoService\\Repositories\\MatchRepository.fs",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Infrastructure\\MongoService\\Repositories\\MatchRepository.fs",
-              "RelativeToolTip": "FantasySportBetting.Infrastructure\\MongoService\\Repositories\\MatchRepository.fs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T23:56:00.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetMatchHandler.fs",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\Handlers\\GetMatchHandler.fs",
-              "RelativeDocumentMoniker": "FantasySportBetting.Application\\Handlers\\GetMatchHandler.fs",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\Handlers\\GetMatchHandler.fs",
-              "RelativeToolTip": "FantasySportBetting.Application\\Handlers\\GetMatchHandler.fs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T23:55:38.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddNewMatchHandler.fs",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\Handlers\\AddNewMatchHandler.fs",
-              "RelativeDocumentMoniker": "FantasySportBetting.Application\\Handlers\\AddNewMatchHandler.fs",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Application\\Handlers\\AddNewMatchHandler.fs",
-              "RelativeToolTip": "FantasySportBetting.Application\\Handlers\\AddNewMatchHandler.fs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T23:55:37.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MatchController.fs",
-              "DocumentMoniker": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\MatchController.fs",
-              "RelativeDocumentMoniker": "FantasySportBetting.Web\\Controllers\\MatchController.fs",
-              "ToolTip": "C:\\Users\\stmih\\source\\repos\\FantasySportBettingApp\\FantasySportBetting.Web\\Controllers\\MatchController.fs",
-              "RelativeToolTip": "FantasySportBetting.Web\\Controllers\\MatchController.fs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T23:53:22.705Z",
+              "WhenOpened": "2024-07-01T17:34:25Z",
               "EditorCaption": ""
             }
           ]

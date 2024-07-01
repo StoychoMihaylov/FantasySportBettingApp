@@ -20,7 +20,7 @@ type PlaceBetHandler() =
                 MatchId = request.MatchId
                 Amount = request.Amount
                 PlacedAt = DateTime.UtcNow
-                Result = None
+                Win = false
             })
    
 

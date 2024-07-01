@@ -8,5 +8,5 @@ type Bet = {
     MatchId: Guid
     Amount: decimal
     PlacedAt: DateTime
-    Result: Option<string> // "win" or "loss"
+    Win: bool
 }
