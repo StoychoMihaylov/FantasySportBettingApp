@@ -8,10 +8,8 @@
   <ItemGroup>
     <Compile Include="Models\Match.fs" />
     <Compile Include="Settings\MongoSettings.fs" />
-    <Compile Include="Models\Team.fs" />
     <Compile Include="Models\Bet.fs" />
     <Compile Include="Models\User.fs" />
-    <Compile Include="Models\MatchResult.fs" />
   </ItemGroup>
 
 </Project>

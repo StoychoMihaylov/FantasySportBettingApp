@@ -9,15 +9,18 @@ type MatchDocument =
         [<BsonId>]
         Id: BsonObjectId
 
-        [<BsonElement("home-team")>]
+        [<BsonElement("HomeTeam")>]
         HomeTeam: string
 
-        [<BsonElement("guest-team")>]
+        [<BsonElement("GuestTeam")>]
         GuestTeam: string
 
-        [<BsonElement("start-time")>]
+        [<BsonElement("StartTime")>]
         StartTime: DateTime
 
-        [<BsonElement("winner")>]
+        [<BsonElement("WinCoefficient")>]
+        WinCoefficient: Decimal
+
+        [<BsonElement("Winner")>]
         Winner: string
     }

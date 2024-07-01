@@ -7,14 +7,13 @@ open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
 open MediatR
 open System.Reflection
-open Microsoft.OpenApi.Models
 
-open FantasySportBetting.Domain.Settings
-open FantasySportBetting.Application.BackgroundServices
 open FantasySportBetting.Infrastructure.MongoService.Context
+open FantasySportBetting.Domain.Models
+open FantasySportBetting.Domain.Settings
 open FantasySportBetting.Application.Commands
 open FantasySportBetting.Application.Handlers
-open FantasySportBetting.Domain.Models
+open FantasySportBetting.Application.Queries
 
 module Program =
     let exitCode = 0
@@ -29,17 +28,17 @@ module Program =
         
         // Register services
         builder.Services.AddControllers()
-        builder.Services.AddSingleton<MongoDbContext>()
-        builder.Services.AddHostedService<MatchResultBackgroundService>()
-        
-        builder.Services.AddSwaggerGen(fun c ->
-            c.SwaggerDoc("v1", OpenApiInfo(Title = "FantasySportBetting API", Version = "v1"))
-        ) |> ignore
+        builder.Services.AddScoped<MongoDbContext>()
+        //builder.Services.AddHostedService<MatchResultSetterService>()
+        builder.Services.AddSwaggerGen()
 
-        // MediatR
+        // Register MediatR
         builder.Services.AddMediatR(Assembly.GetExecutingAssembly()) |> ignore
         builder.Services.AddScoped<IRequestHandler<AddNewMatchCommand, string>, AddNewMatchHandler>()
-        builder.Services.AddScoped<IRequestHandler<GetMatchCommand, Match option>, GetMatchHandler>()
+        builder.Services.AddScoped<IRequestHandler<GetMatchQuery, Match option>, GetMatchHandler>()
+        builder.Services.AddScoped<IRequestHandler<SetResultToUnplayedMatchesCommand, unit>, SetResultToUnplayedMatchesHandler>()
+        builder.Services.AddScoped<IRequestHandler<AddNewUserCommand, string>, AddNewUserHandler>()
+        builder.Services.AddScoped<IRequestHandler<GetUserQuery, User option>, GetUserHandler>()
 
         let app = builder.Build()
 
@@ -47,10 +46,7 @@ module Program =
         if app.Environment.IsDevelopment() then
             app.UseDeveloperExceptionPage()
             app.UseSwagger()
-            app.UseSwaggerUI(fun c ->
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FantasySportBetting API v1")
-
-            ) |> ignore
+            app.UseSwaggerUI() |> ignore
 
         app.UseHttpsRedirection()
         app.UseAuthorization()

@@ -1,3 +1,8 @@
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.fsproj.AssemblyReference.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.AssemblyInfo.fs
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.fsproj.CoreCompileInputs.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Application.deps.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Application.dll
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Application.pdb
@@ -8,11 +13,6 @@ C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Applicati
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Domain.xml
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Infrastructure.pdb
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\bin\Debug\net8.0\FantasySportBetting.Infrastructure.xml
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.fsproj.AssemblyReference.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.AssemblyInfoInputs.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.AssemblyInfo.fs
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.fsproj.CoreCompileInputs.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasyS.C9614319.Up2Date
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\FantasySportBetting.Application.dll
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Application\obj\Debug\net8.0\refint\FantasySportBetting.Application.dll

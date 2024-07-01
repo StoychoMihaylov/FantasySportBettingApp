@@ -20,6 +20,7 @@ type AddNewMatchHandler(logger: ILogger<AddNewMatchHandler>, context: MongoDbCon
                     HomeTeam = command.HomeTeam
                     GuestTeam = command.GuestTeam
                     StartTime = DateTime.Now
+                    WinCoefficient = command.WinCoefficient
                     Winner = ""
                 }
 
