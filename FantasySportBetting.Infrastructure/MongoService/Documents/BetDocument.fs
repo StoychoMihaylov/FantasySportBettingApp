@@ -10,10 +10,10 @@ type BetDocument =
         Id: BsonObjectId
 
         [<BsonElement("UserId")>]
-        UserId: Guid
+        UserId: BsonObjectId
 
         [<BsonElement("MatchId")>]
-        MatchId: Guid
+        MatchId: BsonObjectId
 
         [<BsonElement("Amount")>]
         Amount: decimal

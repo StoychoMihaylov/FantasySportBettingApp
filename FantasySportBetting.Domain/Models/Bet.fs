@@ -3,10 +3,10 @@
 open System
 
 type Bet = {
-    Id: Guid
-    UserId: Guid
-    MatchId: Guid
+    Id: string
+    UserId: string
+    MatchId: string
     Amount: decimal
     PlacedAt: DateTime
-    Win: bool
+    IsProcessed: bool
 }
