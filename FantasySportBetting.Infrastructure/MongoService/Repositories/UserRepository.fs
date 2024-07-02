@@ -26,3 +26,11 @@ module UserRepository =
             do! collection.InsertOneAsync(newUser) |> Async.AwaitTask
             return newUser.Id.ToString()
         } |> Async.StartAsTask
+
+    let updateUserBalance (context: MongoDbContext) (user: UserDocument, newBalance: decimal) = 
+        let collection = getCollection context
+        async {
+            let filter = Builders<UserDocument>.Filter.Eq((fun doc -> doc.Id), user.Id)
+            let update = Builders<UserDocument>.Update.Set((fun doc -> doc.Balance), newBalance)
+            do! collection.UpdateOneAsync(filter, update) |> Async.AwaitTask |> Async.Ignore
+        } |> Async.StartAsTask

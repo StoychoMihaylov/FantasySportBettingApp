@@ -10,6 +10,7 @@
     <Compile Include="MongoService\Documents\BetDocument.fs" />
     <Compile Include="MongoService\Documents\UserDocument.fs" />
     <Compile Include="MongoService\Documents\MatchDocument.fs" />
+    <Compile Include="MongoService\Repositories\BetRepository.fs" />
     <Compile Include="MongoService\Repositories\UserRepository.fs" />
     <Compile Include="MongoService\Repositories\MatchRepository.fs" />
   </ItemGroup>

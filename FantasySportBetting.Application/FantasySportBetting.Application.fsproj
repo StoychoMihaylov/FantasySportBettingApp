@@ -7,18 +7,24 @@
 
   <ItemGroup>
 
+    <Compile Include="Queries\GetBetQuery.fs" />
+
+    <Compile Include="Queries\GetAllUnplayedMatchesQuery.fs" />
+
     <Compile Include="Queries\GetUserQuery.fs" />
     <Compile Include="Queries\GetMatchQuery.fs" />
+    <Compile Include="Commands\AddNewBetCommand.fs" />
     <Compile Include="Commands\AddNewUserCommand.fs" />
     <Compile Include="Commands\SetResultToUnplayedMatchesCommand.fs" />
     <Compile Include="Commands\AddNewMatchCommand.fs" />
-    <Compile Include="Commands\PlaceBetCommand.fs" />
+    <Compile Include="QueryHandlers\GetBetHandler.fs" />
+    <Compile Include="QueryHandlers\GetAllUnplayedMatchesHandler.fs" />
     <Compile Include="QueryHandlers\GetUserHandler.fs" />
     <Compile Include="QueryHandlers\GetMatchHandler.fs" />
+    <Compile Include="CommandHandlers\AddNewBetHandler.fs" />
     <Compile Include="CommandHandlers\AddNewUserHandler.fs" />
     <Compile Include="CommandHandlers\SetResultToUnplayedMatchesHandler.fs" />
     <Compile Include="CommandHandlers\AddNewMatchHandler.fs" />
-    <Compile Include="CommandHandlers\PlaceBetHandler.fs" />
     <Compile Include="BackgroundServices\MatchResultSetterService.fs" />
   </ItemGroup>
   

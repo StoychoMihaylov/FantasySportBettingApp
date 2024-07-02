@@ -14,11 +14,26 @@ type MatchController (logger: ILogger<MatchController>, mediator: IMediator) =
     inherit ControllerBase()
 
     [<HttpGet>]
+    member this.GetAllUnplayed() : Task<IActionResult> =
+        async {
+            try
+                let query = GetAllUnplayedMatchesQuery()
+                let! matches = mediator.Send(query) |> Async.AwaitTask
+                if matches.Length = 0 
+                    then return this.StatusCode(404) :> IActionResult 
+                    else return this.StatusCode(200, matches) :> IActionResult
+            with
+            | ex ->
+                logger.LogError(ex, "Error getting all matches.")
+                return this.StatusCode(500, "Internal server error.")
+        } |> Async.StartAsTask
+
+    [<HttpGet("{id}")>]
     member this.Get(id: string) : Task<IActionResult> =
         async {
             try
-                let command = GetMatchQuery(id)
-                let! matchOption = mediator.Send(command) |> Async.AwaitTask
+                let query = GetMatchQuery(id)
+                let! matchOption = mediator.Send(query) |> Async.AwaitTask
                 match matchOption with
                 | Some matchResponse -> return this.StatusCode(200, matchResponse) :> IActionResult
                 | None -> return this.StatusCode(404) :> IActionResult

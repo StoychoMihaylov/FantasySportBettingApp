@@ -30,8 +30,8 @@ type UserController (logger: ILogger<UserController>, mediator: IMediator) =
     member this.Get(id: string) : Task<IActionResult> =
         async {
             try
-                let command = GetUserQuery(id)
-                let! userOption = mediator.Send(command) |> Async.AwaitTask
+                let query = GetUserQuery(id)
+                let! userOption = mediator.Send(query) |> Async.AwaitTask
                 match userOption with
                 | Some userResponse -> return this.StatusCode(200, userResponse) :> IActionResult
                 | None -> return this.StatusCode(404) :> IActionResult
@@ -40,4 +40,5 @@ type UserController (logger: ILogger<UserController>, mediator: IMediator) =
                 logger.LogError(ex, "Error getting a user.")
                 return this.StatusCode(500, "Internal server error.")
         } |> Async.StartAsTask
+
 
