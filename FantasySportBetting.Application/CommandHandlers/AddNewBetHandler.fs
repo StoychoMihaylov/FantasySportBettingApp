@@ -30,11 +30,15 @@ type AddNewBetHandler(logger: ILogger<AddNewBetHandler>, context: MongoDbContext
                 | Some matchDoc ->
                     if matchDoc.Winner.Length > 0 then 
                         raise (ArgumentException("Match already played."))
+
+                    if matchResult.Value.HomeTeam <> command.WinnerTeam && matchResult.Value.GuestTeam <> command.WinnerTeam 
+                    then raise (ArgumentException("The given winner team not found for that match."))
         
                 let betDocument: BetDocument = {
                     Id = BsonObjectId(ObjectId.GenerateNewId())
                     UserId = userResult.Value.Id
                     MatchId = matchResult.Value.Id
+                    WinnerTeam = command.WinnerTeam
                     Amount = command.Amount
                     PlacedAt = DateTime.Now
                     IsProcessed = false

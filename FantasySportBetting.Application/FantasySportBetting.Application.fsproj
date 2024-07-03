@@ -13,6 +13,7 @@
 
     <Compile Include="Queries\GetUserQuery.fs" />
     <Compile Include="Queries\GetMatchQuery.fs" />
+    <Compile Include="Commands\ProcessBetsCommand.fs" />
     <Compile Include="Commands\AddNewBetCommand.fs" />
     <Compile Include="Commands\AddNewUserCommand.fs" />
     <Compile Include="Commands\SetResultToUnplayedMatchesCommand.fs" />
@@ -21,6 +22,7 @@
     <Compile Include="QueryHandlers\GetAllUnplayedMatchesHandler.fs" />
     <Compile Include="QueryHandlers\GetUserHandler.fs" />
     <Compile Include="QueryHandlers\GetMatchHandler.fs" />
+    <Compile Include="CommandHandlers\ProcessBetsHandler.fs" />
     <Compile Include="CommandHandlers\AddNewBetHandler.fs" />
     <Compile Include="CommandHandlers\AddNewUserHandler.fs" />
     <Compile Include="CommandHandlers\SetResultToUnplayedMatchesHandler.fs" />

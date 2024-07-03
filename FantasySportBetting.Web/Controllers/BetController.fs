@@ -15,10 +15,10 @@ type BetController (logger: ILogger<BetController>, mediator: IMediator) =
     inherit ControllerBase()
 
     [<HttpPost>]
-    member this.Post(userId: string, matchId: string, amount: decimal) : Task<IActionResult> = 
+    member this.Post(userId: string, matchId: string, winnerTeam: string, amount: decimal) : Task<IActionResult> = 
         async {    
             try
-                let command = AddNewBetCommand(userId, matchId, amount)
+                let command = AddNewBetCommand(userId, matchId, winnerTeam, amount)
                 let! betId = mediator.Send(command) |> Async.AwaitTask
                 return this.StatusCode(200, betId) :> IActionResult
             with
@@ -42,5 +42,18 @@ type BetController (logger: ILogger<BetController>, mediator: IMediator) =
             with
             | ex ->
                 logger.LogError(ex, "Error getting a bet.")
+                return this.StatusCode(500, "Internal server error.")
+        } |> Async.StartAsTask
+
+    [<HttpPut>]
+    member this.Put() : Task<IActionResult> =
+        async {
+            try              
+                let command = ProcessBetsCommand()
+                do! mediator.Send(command) |> Async.AwaitTask
+                return this.StatusCode(200) :> IActionResult
+            with
+            | ex ->
+                logger.LogError(ex, "Error while processing the bets.")
                 return this.StatusCode(500, "Internal server error.")
         } |> Async.StartAsTask

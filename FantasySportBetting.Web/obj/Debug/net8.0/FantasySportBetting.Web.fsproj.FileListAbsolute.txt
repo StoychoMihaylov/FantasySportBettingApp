@@ -1,9 +1,3 @@
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.fsproj.AssemblyReference.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.AssemblyInfoInputs.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.AssemblyInfo.fs
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.fsproj.CoreCompileInputs.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\appsettings.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\Properties\launchSettings.json
@@ -59,7 +53,13 @@ C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\D
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\FantasySportBetting.Infrastructure.xml
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\FantasySportBetting.Application.pdb
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\bin\Debug\net8.0\FantasySportBetting.Application.xml
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.fsproj.AssemblyReference.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.AssemblyInfoInputs.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.AssemblyInfo.fs
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.fsproj.CoreCompileInputs.cache
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.MvcApplicationPartsAssemblyInfo.fs
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\FantasySportBetting.Web.sourcelink.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\stmih\source\repos\FantasySportBettingApp\FantasySportBetting.Web\obj\Debug\net8.0\staticwebassets\msbuild.FantasySportBetting.Web.Microsoft.AspNetCore.StaticWebAssets.props

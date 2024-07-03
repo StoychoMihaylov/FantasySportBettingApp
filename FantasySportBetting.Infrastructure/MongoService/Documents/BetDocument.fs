@@ -15,6 +15,9 @@ type BetDocument =
         [<BsonElement("MatchId")>]
         MatchId: BsonObjectId
 
+        [<BsonElement("WinnerTeam")>]
+        WinnerTeam: string
+
         [<BsonElement("Amount")>]
         Amount: decimal
 

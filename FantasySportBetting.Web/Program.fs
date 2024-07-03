@@ -42,6 +42,7 @@ module Program =
         builder.Services.AddScoped<IRequestHandler<GetAllUnplayedMatchesQuery, Match list>, GetAllUnplayedMatchesHandler>()
         builder.Services.AddScoped<IRequestHandler<AddNewBetCommand, string>, AddNewBetHandler>()
         builder.Services.AddScoped<IRequestHandler<GetBetQuery, Bet option>, GetBetHandler>()
+        builder.Services.AddScoped<IRequestHandler<ProcessBetsCommand, unit>, ProcessBetsHandler>()
 
         let app = builder.Build()
 
